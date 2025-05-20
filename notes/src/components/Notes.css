@@ -1,0 +1,24 @@
+.notes-container {
+  text-align: start;
+}
+
+.dotted-bottom {
+  border-bottom: none;
+  background-image: repeating-linear-gradient(
+    to right,
+    black 0,
+    black 4px,
+    transparent 2px,
+    transparent 12px
+  );
+  background-position: bottom;
+  background-size: 100% 3px;
+  background-repeat: no-repeat;
+  padding-bottom: 5px;
+}
+
+.note-card {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}

@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.box {
+  border: 4px solid black;
+  width: 700px;
+}
+
+.box.heading {
+  height: 50px;
+}
+
+.box.note {
+  height: 200px;
+}
+
+.box.heading > input,
+.box.note > textarea {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+.box.heading > input {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.add-button {
+  display: flex;
+  justify-content: space-between;
+}
